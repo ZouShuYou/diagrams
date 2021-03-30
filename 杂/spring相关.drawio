@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T10:22:00.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="6OktVz3TbES-pILgbFox" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-30T10:27:24.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="_M839w4UwCwsd0c9j2Xp" version="14.4.9" type="github">
   <diagram id="PHvQmYVwCx-GHsDMdO7j" name="第 1 页">
     <mxGraphModel dx="865" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -39,6 +39,21 @@
         </mxCell>
         <mxCell id="SVsJeydGzL-bqunpwrKy-14" value="调用InitializingBean实现类的afterPropertiesSet()方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="960" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-15" value="调用Bean配置的init-method属性指定的初始化方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1040" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-16" value="调用BeanPostProcessor实现类的&lt;br&gt;postProcessAfterInitialization方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1120" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-17" value="容器初始化成功，程序正常执行之后进行容器销毁操作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1200" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-18" value="调用DiposibleBean实现类的destory()方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1280" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-19" value="调用Bean配置的destroy-method属性指定的初始化方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1360" width="400" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
