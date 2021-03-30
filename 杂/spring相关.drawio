@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T07:39:35.157Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="vqii0N5KCS1rkFWXI4X2" version="14.4.9" type="github"><diagram id="PHvQmYVwCx-GHsDMdO7j" name="第 1 页">ddHBDoMgDADQr+GOMhPvzm2XnTzsTKQTErQGWWT7+mmAOeJ2Al5bSgphVe/Oho/yigI0yalwhB1JnmeUlcuyytNLcQjQGSVC0gaNekGsDPpQAqYk0SJqq8YUWxwGaG1i3Bic07Q76rTryDvYQdNyvdebElZ6LQu6+QVUJ2PnjIZIz2NygElygfMXsZqwyiBav+tdBXodXpyLrzv9iX4eZmCwPwqWzXb3ckh+iNVv</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-30T10:22:00.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="6OktVz3TbES-pILgbFox" version="14.4.9" type="github">
+  <diagram id="PHvQmYVwCx-GHsDMdO7j" name="第 1 页">
+    <mxGraphModel dx="865" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SVsJeydGzL-bqunpwrKy-1" value="实例化BeanFactoryPostProcessor实现类" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-3" value="实例化BeanPostProcessor实现类" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-4" value="执行BeanFactoryPostProcessor的postProcessBeanFactory方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-5" value="实例化InstantiationAwareBeanPostProcessor实现类" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-6" value="调用InstantiationAwareBeanPostProcessor实现类的postProcessBeforeInstantiation方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-7" value="Bean实例化，通过执行Bean的构造器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="480" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-8" value="调用InstantiationAwareBeanPostProcessor实现类的postProcessAfterInstantiation方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-9" value="Bean的属性注入" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="640" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-10" value="调用BeanNameAware的setBeanName()方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="720" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-11" value="调用BeanFactoryAware的setBeanFactory()方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="800" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-12" value="调用BeanPostProcessor实现类的&lt;br&gt;postProcessBeforeInitialization方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="880" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVsJeydGzL-bqunpwrKy-14" value="调用InitializingBean实现类的afterPropertiesSet()方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="960" width="400" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
